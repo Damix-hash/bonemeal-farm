@@ -37,11 +37,16 @@ function createBot() {
         return get_username?.trim() || '';
     }
 
-    if (return_user(message) === 'Damix2131' && message.includes("come catstar")) {
+    if ((return_user(message) === 'Damix2131' || return_user(message) === 'NIKASTEIN') && message.includes("come catstar")) {
       bot.chat('/tpa Damix2131')
     }
+
+    if ((return_user(message) === 'Damix2131' || return_user(message) === 'NIKASTEIN') && message.includes("catstar say")) {
+      
+      bot.chat(message.split('catstar say ')[1])
+    }
   })
-  
+
   bot.on('end', () => {
     console.log('🔄 Disconnected — reconnecting...');
     setTimeout(createBot, 5000);
