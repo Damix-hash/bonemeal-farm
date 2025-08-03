@@ -37,11 +37,11 @@ function createBot() {
         return get_username?.trim() || '';
     }
 
-    if ((return_user(message) === 'Damix2131' || return_user(message) === 'NIKASTEIN') && message.includes("come catstar")) {
+    if ((return_user(message) === 'Damix2131' || return_user(message) === 'MioAutoCrystal') && message.includes("come catstar")) {
       bot.chat(`/tpa ${return_user(message)}`)
     }
 
-    if ((return_user(message) === 'Damix2131' || return_user(message) === 'NIKASTEIN') && message.includes("catstar say")) {
+    if ((return_user(message) === 'Damix2131' || return_user(message) === 'MioAutoCrystal') && message.includes("catstar say")) {
       
       bot.chat(message.split('catstar say ')[1])
     }
