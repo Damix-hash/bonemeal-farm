@@ -38,7 +38,7 @@ function createBot() {
     }
 
     if ((return_user(message) === 'Damix2131' || return_user(message) === 'NIKASTEIN') && message.includes("come catstar")) {
-      bot.chat('/tpa Damix2131')
+      bot.chat(`/tpa ${return_user(message)}`)
     }
 
     if ((return_user(message) === 'Damix2131' || return_user(message) === 'NIKASTEIN') && message.includes("catstar say")) {
