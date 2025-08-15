@@ -9,7 +9,7 @@ const possible_anwsers = {
   "Unscramble: TNERD": "render",
   "1, 3, 5, 7, ?": "9",
   "Say: Redstone rules": "redstone rules",
-  "I'm red, I'm dust, I power redstone. What am I?": "redstone",
+  "I'm red, I'm dust": "redstone",
   "2, 4, 8, ?": "16",
   //"": "build",
   "TNT can't break what?": "bedrock", // It's the strongest block in the game
