@@ -46,7 +46,7 @@ function createBot() {
       if (message.startsWith('[Prime] royalburner »')) {
         console.log(message)
         for (key in possible_anwsers) {
-          if (message.includes(key)) {
+          if (message.toLowerCase().includes(key.toLowerCase())) {
             setTimeout(() => {
               bot.chat(possible_anwsers[key])
             }, Math.floor((Math.random() * 2000) + 1000))
