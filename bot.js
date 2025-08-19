@@ -60,7 +60,7 @@ function createBot() {
       bot.chat("/tpy royalburner")
     }*/
 
-    if (message.includes("Damix2131 »") && message.includes("come catstar")) {
+    if (message.includes("Damix2131") && message.includes("come catstar")) {
       bot.chat("/tpa Damix2131")
     }
   })
