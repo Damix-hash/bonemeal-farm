@@ -42,7 +42,7 @@ function createBot() {
   });
 
   bot.on('messagestr', (message) => {
-    function getRightAnwser(message) {
+    /*function getRightAnwser(message) {
       if (message.startsWith('[Prime] royalburner »')) {
         console.log(message)
         for (key in possible_anwsers) {
@@ -58,9 +58,9 @@ function createBot() {
 
     if (message.includes("royalburner wants to teleport to you.")) {
       bot.chat("/tpy royalburner")
-    }
+    }*/
 
-    if (message.includes("[Elite] Damix2131 » come catstar")) {
+    if (message.includes("Damix2131 »") && message.includes("come catstar")) {
       bot.chat("/tpa Damix2131")
     }
   })
